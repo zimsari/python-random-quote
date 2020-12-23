@@ -10,7 +10,10 @@ def main():
   quotes = f.readlines()
   f.close()
 
-  print(quotes[rnd])
+
+  print(quotes[rnd], end=' ')
+  print(quotes[rnd], end=' ')
+  print(quotes[rnd], end=' ')
 
 if __name__== "__main__":
   main()
